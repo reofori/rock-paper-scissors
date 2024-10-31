@@ -40,10 +40,4 @@ node {
          echo "You are hard to please."
       }
    }
-	
-   stage('Static Code Analysis'){
-       build job: 'static-code-analysis'
-   }
-	
-
 }
